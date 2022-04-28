@@ -123,6 +123,7 @@ Card Styling
 	left: 0;
 	background-color: var(--Soft-violet-accent);
 	opacity: 0.5;
+	border-radius: 0 10px 10px 0;
 }
 
 .content .stats {
@@ -184,6 +185,10 @@ Media Queries
 
 	.image-holder img:nth-of-type(2) {
 		display: unset;
+		border-radius: 10px 10px 0 0;
+	}
+
+	.overlay {
 		border-radius: 10px 10px 0 0;
 	}
 
